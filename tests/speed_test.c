@@ -7,7 +7,7 @@
 
 #define RUNNING_SPEED_TEST 1
 
-#import "../server.h"
+#include "../server.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -80,6 +80,7 @@ char **strKeys;
 // Array of random payloads
 char **payloads;
 
+int run(int seed);
 
 char* p_randStr(int size)
 {
