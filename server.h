@@ -62,6 +62,8 @@ Older versions:
    See http://db.csail.mit.edu/sigmod09contest/ for details
 */
 
+#pragma once
+
 #include <stdint.h>
 
 

@@ -29,7 +29,7 @@ This is version 1.0, released December 12, 2008.
 
  */
 
-#import "server.h"
+#include "server.h"
 
 #include <pthread.h>
 #include <stdio.h>
@@ -58,6 +58,7 @@ int DID_TRANSACTION_PASS = 0;
 
 int CAN_STOP_TRANS = 0;
 
+int run_unittests(void);
 
 static void wait_thread(void)
 {    
